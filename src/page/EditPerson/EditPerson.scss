@@ -1,0 +1,13 @@
+.editPerson {
+    h2 {
+        text-align: center;
+    }
+}
+
+@media(max-width:500px) {
+    .editPerson {
+        h2 {
+            font-size: 28px;
+        }
+    }
+}

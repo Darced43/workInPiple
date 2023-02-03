@@ -1,0 +1,45 @@
+.modalSucses {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    z-index: 100;
+}
+
+.modalSucses__info {
+    border-radius: 8px;
+    background-color: rgba(0, 0, 238);
+}
+
+.modalSucses__block {
+    position: relative;
+}
+
+.main__closeModal {
+    position: absolute;
+    color: white !important
+}
+
+.modalSucses__info p {
+    width: 463px;
+    height: 147px;
+    margin: 0;
+    display: flex;
+    font-size: 22px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+@media(max-width:500px) {
+    .modalSucses__info p {
+        width: 300px;
+    }
+}

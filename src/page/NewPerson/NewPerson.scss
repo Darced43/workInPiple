@@ -1,0 +1,47 @@
+.new_person {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.new_person_block {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 500px;
+    justify-content: space-between;
+
+    .new_person_text {
+        margin-right: 20px;
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+    }
+}
+
+@media(max-width:1920px) {
+    .new_person {
+        width: 100%;
+    }
+}
+
+@media(max-width:550px) {
+    .new_person {
+        h2 {
+            text-align: center;
+        }
+    }
+
+    .new_person_block {
+        width: 100%;
+        flex-direction: column;
+
+        .new_person_text {
+            margin-bottom: 20px;
+        }
+    }
+
+    .new_person_button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

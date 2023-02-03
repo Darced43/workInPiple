@@ -1,0 +1,60 @@
+.edit_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 340px;
+    padding: 0 10px 0 10px;
+    margin: 0 auto;
+}
+
+.person_data {
+    font-size: 22px;
+}
+
+.edit_block {
+    margin: 10px 0;
+    display: flex;
+}
+
+.input_field {
+    width: 222px;
+}
+
+.number_phone {
+    border-radius: 4px;
+    align-items: center;
+    -webkit-box-align: center;
+    color: rgba(0, 0, 0, 0.87);
+    padding: 16.5px 14px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    width: 191px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+
+    &:focus {
+        outline: 1px solid #1976d2;
+        border: 1px solid #1976d2
+    }
+
+    &::placeholder {
+        font-size: 16px;
+        color: rgba(0, 0, 0, 0.43);
+    }
+}
+
+@media(max-width:380px) {
+    .edit_card {
+        padding: 0 !important;
+        width: 100%;
+    }
+
+    .number_phone {
+        width: 160px;
+    }
+
+    .input_field {
+        width: 190px;
+    }
+}
